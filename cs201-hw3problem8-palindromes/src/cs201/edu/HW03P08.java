@@ -26,8 +26,8 @@ public class HW03P08{
 				System.exit(1);
 			}
 			
-		//Declares digits and separates digits in the five digit number
-		int digit1 = usersNumberInput / 10000;
+	//Declares digits and separates digits in the five digit number
+	int digit1 = usersNumberInput / 10000;
       	int digit2 = usersNumberInput / 1000 % 10;
       	int digit3 = usersNumberInput % 1000 / 100 % 10;
       	int digit4 = usersNumberInput % 10000 % 1000 % 100 / 10;
@@ -42,5 +42,5 @@ public class HW03P08{
       	{
           System.out.println(usersNumberInput + " is not a palindrome!");
         }	
-		}
 	}
+}
